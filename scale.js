@@ -311,7 +311,7 @@ var Scale = (function () {
 
         this.connected = false;
         if (this.device) {
-            this.device.gatt.connect();
+            this.device.gatt.disconnect();
         }
     };
 
