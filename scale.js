@@ -206,7 +206,7 @@ var Scale = (function () {
         this.device = device;
         this.name = this.device.name;
         this.queue = null;
-        console.log('created scale for ' + this.device.address + ' (' + this.device.name + ')');
+        console.log('created scale for ' + this.device.id + ' (' + this.device.name + ')');
         this.connect();
     }
 
